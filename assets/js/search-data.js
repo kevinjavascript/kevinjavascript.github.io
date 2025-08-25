@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/deconstructing-the-moog/";
           
         },
+      },{id: "post-hello-world",
+        
+          title: "Hello , world!",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2019/helloworld/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
