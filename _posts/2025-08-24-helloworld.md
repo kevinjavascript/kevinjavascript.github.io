@@ -1,20 +1,20 @@
 ---
-layout: default
-title: "Hello , world!"
-date: 2019-07-06 05:00:00 +0200
-published: 2019-07-04 05:00:00 +0200
-comments: true
-categories: development
-tags: [music, computer]
+layout: post
+title: "Hello, world!"
+date: 2025-8-25 21:53:00
+description: "A deep dive into the circuitry and design philosophy that gives the legendary Minimoog its timeless sound."
+category: 'Helloworld'
 ---
 
 
-# Hello world!
+# Hello, world!
 
 ## hello world - heading 2
 hello world--text
 
-## hello world =-- heading 2
+### hello world - heading 3
+#### hello world - heading 4
+
 hello world--text
 
 
