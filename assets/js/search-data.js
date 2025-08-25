@@ -14,66 +14,68 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/insights/index.html";
+          },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "A comprehensive collection of my musical achievements, certifications, and international recognitions in composition and performance.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
           },
         },{id: "nav-portfolio",
           title: "Portfolio",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/portfolio/";
           },
         },{id: "nav-timeline",
           title: "Timeline",
           description: "A timeline of my experiences.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/experience/";
+            window.location.href = "/timeline/";
           },
         },{id: "nav-resume",
           title: "Resume",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/resume/";
           },
-        },{id: "post-deconstructing-a-classic-what-makes-the-moog-minimoog-sound-so-iconic",
+        },{id: "post-introduction-of-yamaha-electone-festivel-yef",
         
-          title: "Deconstructing a Classic: What Makes the Moog Minimoog Sound So Iconic?",
+          title: "Introduction of Yamaha Electone Festivel (YEF)",
         
-        description: "A deep dive into the circuitry and design philosophy that gives the legendary Minimoog its timeless sound.",
+        description: "A brief introduction to the Yamaha Electone Festival (YEF).",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/deconstructing-the-moog/";
+            window.location.href = "/insights/2024/intro-to-yef/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-the-clockwork-sparrow-short-film-score",
-          title: 'The Clockwork Sparrow - Short Film Score',
-          description: "An orchestral and electronic score for a student animated short, capturing a mood of wonder and mechanical melancholy.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/clockwork-sparrow/";
-            },},{id: "projects-neon-cityscape-original-composition",
-          title: 'Neon Cityscape - Original Composition',
-          description: "An original electronic track inspired by retro-futuristic cityscapes, blending analog synth textures with modern production.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/neon-cityscape/";
+      },{id: "post-yef-experience",
+        
+          title: "YEF Experience",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/insights/2023/yef-experience/";
+          
+        },
+      },{id: "portfolio-persue",
+          title: 'Persue',
+          description: "Listen to Persue NOW !",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/persue/";
+            },},{id: "portfolio-the-battle-of-gai-xia-yef",
+          title: 'The Battle of Gai Xia (YEF)',
+          description: "Listen to The Battle of GaiXia (YEF) NOW !",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/the-battle-of-gai-xia-yef/";
             },},{
         id: 'social-email',
         title: 'email',
