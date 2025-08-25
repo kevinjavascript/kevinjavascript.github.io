@@ -28,4 +28,4 @@ public class hello{
 }
 ```
 
-![helloworld](/assets/images/posts/helloworld/helloworld.png)
+![helloworld](/assets/img/posts/helloworld/helloworld.png)
