@@ -28,4 +28,8 @@ public class hello{
 }
 ```
 
+```python
+print("Hello, World!")
+```
+
 ![helloworld](/assets/img/posts/helloworld/helloworld.png)
