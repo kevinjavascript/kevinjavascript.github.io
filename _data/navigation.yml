@@ -1,0 +1,11 @@
+main:
+  - title: "Spotlights"
+    url: /
+  - title: "Portfolio"
+    url: /projects/
+  - title: "Resume"
+    url: /cv/
+  - title: "Timeline"
+    url: /experience/
+  - title: "Insights"
+    url: /blog/

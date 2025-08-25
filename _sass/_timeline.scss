@@ -1,0 +1,40 @@
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+  list-style: none;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #dcdcdc;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #6c757d;
+  border: 3px solid #fff;
+}
+
+.timeline-content {
+  margin-left: 50px;
+  padding-bottom: 20px;
+
+  .timeline-title {
+    font-weight: bold;
+  }
+}
