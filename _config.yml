@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Kevin's Blog # blog_name will be displayed in your blog page
+blog_description: Some insights and thoughts. # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -107,6 +107,10 @@ giscus:
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
+  projects:
+    output: true
+    permalink: /portfolio/:name/
+    path: _portfolio
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
@@ -114,7 +118,7 @@ giscus:
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
+permalink: /insights/:year/:title/
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
@@ -149,8 +153,10 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
+  portfolio:
     output: true
+    permalink: /portfolio/:name/
+    path: _portfolio
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

@@ -2,10 +2,12 @@ main:
   - title: "Spotlights"
     url: /
   - title: "Portfolio"
-    url: /projects/
-  - title: "Resume"
-    url: /cv/
+    url: /portfolio/
   - title: "Timeline"
-    url: /experience/
+    url: /timeline/
+  - title: "Awards"
+    url: /awards/
   - title: "Insights"
-    url: /blog/
+    url: /insights/
+  - title: "Resume"
+    url: /resume/

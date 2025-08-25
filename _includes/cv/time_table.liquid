@@ -76,6 +76,11 @@
               {% endfor %}
             </ul>
           {% endif %}
+          {% if content.video %}
+            <div class="video-container" style="width: 100%; height: 300px;">
+              <iframe src="{{ content.video }}" frameborder="0" allowfullscreen></iframe>
+            </div>
+          {% endif %}
           {% if content.items %}
             <ul class="items">
               {% for item in content.items %}
