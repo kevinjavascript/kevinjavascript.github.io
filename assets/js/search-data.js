@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/insights/index.html";
           },
-        },{id: "nav-awards",
-          title: "Awards",
+        },{id: "nav-awards-amp-achievements",
+          title: "Awards &amp; Achievements",
           description: "A comprehensive collection of my musical achievements, certifications, and international recognitions in composition and performance.",
           section: "Navigation",
           handler: () => {
@@ -25,26 +25,48 @@ ninja.data = [{
           },
         },{id: "nav-portfolio",
           title: "Portfolio",
-          description: "A growing collection of your cool projects.",
+          description: "A showcase of my musical compositions, performances, and creative projects that demonstrate my journey in music technology.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/portfolio/";
           },
-        },{id: "nav-timeline",
-          title: "Timeline",
-          description: "A timeline of my experiences.",
+        },{id: "nav-musical-journey-timeline",
+          title: "Musical Journey Timeline",
+          description: "A chronological journey through my musical evolution and achievements.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/timeline/";
           },
         },{id: "nav-resume",
           title: "Resume",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Professional resume showcasing my musical journey, achievements, and academic pursuits in music technology.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/resume/";
           },
-        },{id: "post-introduction-of-yamaha-electone-festivel-yef",
+        },{id: "post-the-future-of-music-technology-my-vision-and-journey",
+        
+          title: "The Future of Music Technology: My Vision and Journey",
+        
+        description: "Reflecting on how technology is reshaping music creation and my role as a future music technologist.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/insights/2025/future-of-music-technology/";
+          
+        },
+      },{id: "post-hello-world",
+        
+          title: "Hello, world!",
+        
+        description: "A deep dive into the circuitry and design philosophy that gives the legendary Minimoog its timeless sound.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/insights/2025/helloworld/";
+          
+        },
+      },{id: "post-introduction-of-yamaha-electone-festivel-yef",
         
           title: "Introduction of Yamaha Electone Festivel (YEF)",
         
@@ -66,7 +88,17 @@ ninja.data = [{
             window.location.href = "/insights/2023/yef-experience/";
           
         },
-      },{id: "portfolio-persue",
+      },{id: "portfolio-beautiful-huitengxile-美丽的辉腾锡勒",
+          title: 'Beautiful Huitengxile (美丽的辉腾锡勒)',
+          description: "A melodic journey inspired by the vast grasslands and cultural richness of my hometown. This piece captures the essence of Inner Mongolia&#39;s natural beauty.",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/beautiful-huitengxile/";
+            },},{id: "portfolio-the-battle-of-gai-xia-垓下之战",
+          title: 'The Battle of Gai Xia (垓下之战)',
+          description: "An epic musical narrative depicting the legendary final battle of Xiang Yu. This composition combines traditional Chinese musical elements with modern orchestration techniques.",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/battle-of-gai-xia/";
+            },},{id: "portfolio-persue",
           title: 'Persue',
           description: "Listen to Persue NOW !",
           section: "Portfolio",handler: () => {
