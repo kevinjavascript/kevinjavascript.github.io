@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Kevin's Blog # blog_name will be displayed in your blog page
-blog_description: Some insights and thoughts. # blog_description will be displayed in your blog page
+blog_name: Musical Insights # blog_name will be displayed in your blog page
+blog_description: Reflections on music, technology, and creative growth # blog_description will be displayed in your blog page
 permalink: /insights/:year/:title/
 lsi: false # produce an index for related posts
 

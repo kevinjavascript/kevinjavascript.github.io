@@ -1,14 +1,8 @@
 ---
-layout: about
+layout: page
 title: Spotlights
 permalink: /
-subtitle: Aspiring Music Technologist & Sound Designer.
-profile:
-  align: right
-  image:
-  image_circular: true
-  more_info: >
-    <p>TODO: 个人照片</p>
+subtitle: <strong>Aspiring Music Technologist & Sound Designer</strong>
 social: true
 latest_posts:
   enabled: true
@@ -16,59 +10,127 @@ latest_posts:
   limit: 3
 ---
 
-<!-- A short, compelling introduction -->
-<div class="row">
-  <div class="col-12">
-    <h2>Welcome to My Spotlight</h2>
-    <p>
-      Which sensory do you like best? For me, it is hearing. Especially, hearing the tunes.<br><br>
-      I am passionate about music. At the age of three, I started to study music at Yamaha Music School. I was really fascinated by the arrangement of melodies and harmonies. They are both made up of simple and basic musical notes, but look at how gorgeous it is when several notes are arranged together! That's the most beautiful sound in the world!<br><br>
-      That's when I decided to learn music. Over the years, I have explored music composition, sound design, and technology, striving to blend creativity with innovation.
-    </p>
+<!-- Hero Section -->
+<div class="hero-section" style="background: var(--global-card-bg-color); padding: 2rem 2rem; border-radius: 15px; margin-bottom: 3rem; border-left: 5px solid var(--global-theme-color); box-shadow: 0 5px 15px var(--global-divider-color); border: 1px solid var(--global-divider-color); text-align: center;">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <h1 style="font-size: 3rem; margin-bottom: 1.5rem; color: var(--global-text-color); font-weight: bold;">🎵 JiaWen Wu</h1>
+      <h2 style="font-size: 1.8rem; margin-bottom: 1rem; color: var(--global-theme-color); font-weight: 300;">Aspiring Music Technologist & Sound Designer</h2>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+          <p style="font-size: 1.3rem; color: var(--global-text-color-light); font-style: italic; margin-bottom: 1rem;">
+            <em>"Music is the language that speaks to the soul"</em>
+          </p>
+          <p style="font-size: 1.2rem; line-height: 1.6; color: var(--global-text-color); margin-bottom: 1.5rem;">
+            From my first encounter with Yamaha Music School at age three to composing original pieces for international competitions,
+            my passion for music has evolved into a deep fascination with <strong>music technology</strong> and <strong>sound design</strong>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Personal Info Cards -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div style="background: rgba(102, 126, 234, 0.1); padding: 1.5rem; border-radius: 15px; height: 100%;">
+                <h4 style="color: var(--global-theme-color); margin-bottom: 0.5rem;">🏆 15+</h4>
+                <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.95rem;">Awards & Honors</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div style="background: rgba(102, 126, 234, 0.1); padding: 1.5rem; border-radius: 15px; height: 100%;">
+                <h4 style="color: var(--global-theme-color); margin-bottom: 0.5rem;">🎹 8+</h4>
+                <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.95rem;">Years Experience</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div style="background: rgba(102, 126, 234, 0.1); padding: 1.5rem; border-radius: 15px; height: 100%;">
+                <h4 style="color: var(--global-theme-color); margin-bottom: 0.5rem;">🌍 3</h4>
+                <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.95rem;">Countries Performed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Current Status -->
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div style="background: var(--global-bg-color); padding: 1.5rem; border-radius: 15px; border: 1px solid var(--global-divider-color); box-shadow: 0 2px 8px var(--global-divider-color);">
+            <h4 style="color: var(--global-theme-color); margin-bottom: 1.5rem; text-align: center; font-weight: 600;">📍 Current Status & Goals</h4>
+            <div class="row text-center g-4">
+              <div class="col-md-4">
+                <div style="padding: 1.5rem; border: 1px solid var(--global-divider-color); border-radius: 12px; height: 100%; background: var(--global-card-bg-color); transition: box-shadow 0.3s;" onmouseover="this.style.boxShadow='0 4px 12px var(--global-divider-color)'" onmouseout="this.style.boxShadow='none'">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎓</div>
+                  <h6 style="color: var(--global-theme-color); margin-bottom: 0.8rem; font-weight: 600;">High School Senior</h6>
+                  <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.95rem;">Graduating Class of 2025</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div style="padding: 1.5rem; border: 1px solid var(--global-divider-color); border-radius: 12px; height: 100%; background: var(--global-card-bg-color); transition: box-shadow 0.3s;" onmouseover="this.style.boxShadow='0 4px 12px var(--global-divider-color)'" onmouseout="this.style.boxShadow='none'">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎵</div>
+                  <h6 style="color: var(--global-theme-color); margin-bottom: 0.8rem; font-weight: 600;">Music Tech Applicant</h6>
+                  <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.95rem;">US University Programs</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div style="padding: 1.5rem; border: 1px solid var(--global-divider-color); border-radius: 12px; height: 100%; background: var(--global-card-bg-color); transition: box-shadow 0.3s;" onmouseover="this.style.boxShadow='0 4px 12px var(--global-divider-color)'" onmouseout="this.style.boxShadow='none'">
+                  <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎼</div>
+                  <h6 style="color: var(--global-theme-color); margin-bottom: 0.8rem; font-weight: 600;">Active Composer</h6>
+                  <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.95rem;">Creating Original Works</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <hr>
 
-<div class="row">
-  <div class="col-12">
-    <h3>Let’s Connect</h3>
-    <p>
-      I am always open to new collaborations, creative projects, and conversations about music and technology. Feel free to reach out via my social links or explore my latest posts below!
-    </p>
-  </div>
+<!-- Connect Section -->
+<div class="text-center mb-5">
+  <h3 style="color: var(--global-theme-color); margin-bottom: 1rem;">🤝 Let's Connect</h3>
+  <p style="font-size: 1.1rem; color: var(--global-text-color-light); max-width: 600px; margin: 0 auto;">
+    I am always open to new collaborations, creative projects, and conversations about music and technology.
+    Feel free to reach out via my social links or explore my latest posts below!
+  </p>
 </div>
-<hr>
 
-<div class="row">
-  <div class="col-12">
-    <h3>Representative Works</h3>
-    <div class="row" style="gap: 24px;">
-      <div class="col-md-4" style="min-width:220px;">
-        <div class="card" style="padding:12px;">
-          <img src="/assets/img/awards/JOC50.png" alt="JOC 50th Anniversary" style="width:100%;border-radius:8px;">
-          <div style="padding-top:8px;">
-            <strong>The Ballad of Gaixia</strong><br>
-            <span class="text-muted">2021 JOC 50th Anniversary</span>
+<!-- Musical Journey Overview -->
+<div class="musical-overview mb-5">
+  <h3 style="text-align: center; margin-bottom: 3rem; color: var(--global-theme-color); font-size: 2rem;">🎼 Musical Journey Overview</h3>
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="timeline-summary" style="background: var(--global-card-bg-color); padding: 2.5rem; border-radius: 15px; border-left: 5px solid var(--global-theme-color); box-shadow: 0 5px 15px var(--global-divider-color); border: 1px solid var(--global-divider-color);">
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <div style="padding: 1.5rem;">
+              <h4 style="color: var(--global-theme-color); margin-bottom: 1rem;">🎵 Early Years</h4>
+              <p style="color: var(--global-text-color-light); margin: 0; line-height: 1.6;">Started at Yamaha Music School at age 3, discovering the magic of melody and harmony</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div style="padding: 1.5rem;">
+              <h4 style="color: var(--global-theme-color); margin-bottom: 1rem;">🌍 International Recognition</h4>
+              <p style="color: var(--global-text-color-light); margin: 0; line-height: 1.6;">Compositions selected for JOC 50th Anniversary and performed in Tokyo</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div style="padding: 1.5rem;">
+              <h4 style="color: var(--global-theme-color); margin-bottom: 1rem;">🚀 Future Vision</h4>
+              <p style="color: var(--global-text-color-light); margin: 0; line-height: 1.6;">Pursuing music technology to blend tradition with innovation</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4" style="min-width:220px;">
-        <div class="card" style="padding:12px;">
-          <img src="/assets/img/awards/2016 IJOC/2016IJOC-certification.png" alt="2016 IJOC" style="width:100%;border-radius:8px;">
-          <div style="padding-top:8px;">
-            <strong>Beautiful Huitengxile</strong><br>
-            <span class="text-muted">2016 IJOC, Tokyo</span>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4" style="min-width:220px;">
-        <div class="card" style="padding:12px;">
-          <img src="/assets/img/awards/2022 YIHC/2022 yihc certi.png" alt="2022 YIHC" style="width:100%;border-radius:8px;">
-          <div style="padding-top:8px;">
-            <strong>Battlefield Muster</strong><br>
-            <span class="text-muted">2022 YIHC</span>
-          </div>
+        <div class="text-center mt-4">
+          <a href="/portfolio/" class="btn" style="background: var(--global-theme-color); color: var(--global-hover-text-color); padding: 0.75rem 2rem; border-radius: 25px; text-decoration: none; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            🎼 Explore My Complete Portfolio
+          </a>
         </div>
       </div>
     </div>
@@ -78,22 +140,42 @@ latest_posts:
 <hr>
 <hr>
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>My Music Philosophy</h3>
-    <p>
-      Music is not just a form of art—it's a language that connects people, tells stories, and expresses emotions beyond words. I believe in the power of original composition and the endless possibilities of sound design. My journey is about exploring new musical landscapes and sharing them with the world.
-    </p>
+<div class="row" style="margin-top: 3rem;">
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100" style="border: 1px solid var(--global-divider-color); border-radius: 15px; background: var(--global-card-bg-color); box-shadow: 0 8px 25px var(--global-divider-color);">
+      <div class="card-body p-4">
+        <h3 style="color: var(--global-theme-color); text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">🎼 My Music Philosophy</h3>
+        <blockquote style="border-left: 4px solid var(--global-theme-color); padding-left: 1.5rem; font-style: italic; margin: 0;">
+          <p style="margin-bottom: 1.5rem; line-height: 1.6;">
+            Music transcends language barriers and speaks directly to the human soul. My compositions blend traditional harmonic structures with innovative technological approaches, creating soundscapes that tell stories and evoke deep emotions.
+          </p>
+          <p style="margin-bottom: 0; line-height: 1.6;">
+            I envision a future where music technology enhances human creativity rather than replacing it—where AI and traditional composition work hand in hand to create unprecedented auditory experiences.
+          </p>
+        </blockquote>
+      </div>
+    </div>
   </div>
-  <div class="col-md-6">
-    <h3>Highlights & Honors</h3>
-    <ul>
-      <li>2021: Selected for the 50th Anniversary Yamaha International Junior Original Concert (JOC)</li>
-      <li>2022: Featured in Yamaha International Highlight Concert (YIHC)</li>
-      <li>2016: Performed at the International Junior Original Concert in Tokyo</li>
-      <li>Multiple National JOC Selections (2015-2022)</li>
-      <li>Yamaha Electone Festival (YEF) Grand Finalist</li>
-    </ul>
+  <div class="col-lg-6 mb-4">
+    <div class="card h-100" style="border: 1px solid var(--global-divider-color); border-radius: 15px; background: var(--global-card-bg-color); box-shadow: 0 8px 25px var(--global-divider-color);">
+      <div class="card-body p-4">
+        <h3 style="color: var(--global-theme-color); text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">🎵 Core Expertise</h3>
+        <div class="skills-overview">
+          <div class="skill-category" style="margin-bottom: 1.5rem; padding: 1.2rem; background: rgba(102, 126, 234, 0.08); border-radius: 12px; border-left: 4px solid var(--global-theme-color);">
+            <h6 style="color: var(--global-theme-color); margin-bottom: 0.8rem; font-weight: bold;">🎼 Musical Composition</h6>
+            <p style="margin: 0; color: var(--global-text-color-light); line-height: 1.5;">8+ original compositions across various genres, from traditional orchestral arrangements to modern electronic fusion</p>
+          </div>
+          <div class="skill-category" style="margin-bottom: 1.5rem; padding: 1.2rem; background: rgba(102, 126, 234, 0.08); border-radius: 12px; border-left: 4px solid var(--global-theme-color);">
+            <h6 style="color: var(--global-theme-color); margin-bottom: 0.8rem; font-weight: bold;">🎹 Performance Expertise</h6>
+            <p style="margin: 0; color: var(--global-text-color-light); line-height: 1.5;">Proficient in Yamaha Electone, piano, and digital music production tools with stage performance experience</p>
+          </div>
+          <div class="skill-category" style="margin-bottom: 0; padding: 1.2rem; background: rgba(102, 126, 234, 0.08); border-radius: 12px; border-left: 4px solid var(--global-theme-color);">
+            <h6 style="color: var(--global-theme-color); margin-bottom: 0.8rem; font-weight: bold;">💻 Music Technology</h6>
+            <p style="margin: 0; color: var(--global-text-color-light); line-height: 1.5;">Experienced with DAW software, sound design, and emerging technologies in music production</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

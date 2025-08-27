@@ -1,10 +1,10 @@
 main:
   - title: "Spotlights"
     url: /
-  - title: "Portfolio"
-    url: /portfolio/
   - title: "Timeline"
     url: /timeline/
+  - title: "Portfolio"
+    url: /portfolio/
   - title: "Awards"
     url: /awards/
   - title: "Insights"

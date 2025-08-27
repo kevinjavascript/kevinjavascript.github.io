@@ -1,24 +1,42 @@
 ---
 layout: page
-title: Awards
+title: Awards & Achievements
 permalink: /awards/
 description: A comprehensive collection of my musical achievements, certifications, and international recognitions in composition and performance.
 nav: true
 nav_order: 3
 ---
 
-<div class="container-fluid">
-  <!--
-  <div class="row mb-5">
-    <div class="col-12">
-      <h2 class="text-center mb-4">Musical Journey & Achievements</h2>
-      <p class="lead text-center">
-        From local competitions to international stages, this page chronicles my musical evolution
-        through various awards, certifications, and memorable performances.
+<!-- Awards Hero Section -->
+<div class="awards-hero" style="background: var(--global-card-bg-color); padding: 3rem 2rem; border-radius: 15px; margin-bottom: 3rem; border-left: 5px solid var(--global-theme-color); box-shadow: 0 5px 15px var(--global-divider-color); border: 1px solid var(--global-divider-color);">
+  <div class="row align-items-center">
+    <div class="col-md-8">
+      <h1 style="color: var(--global-text-color); margin-bottom: 1rem;">🏆 Recognition & Competition Success</h1>
+      <p style="font-size: 1.2rem; color: var(--global-text-color-light); margin-bottom: 2rem;">
+        From regional competitions to international stages - documenting breakthrough moments, prestigious selections, and the honors that shaped my musical career
       </p>
     </div>
+    <div class="col-md-4 text-center">
+      <div style="background: rgba(102, 126, 234, 0.1); padding: 2rem; border-radius: 15px;">
+        <h3 style="color: var(--global-theme-color); margin-bottom: 1rem;">📊 Competition Results</h3>
+        <div style="margin-bottom: 1rem;">
+          <h4 style="color: var(--global-theme-color);">15+</h4>
+          <p style="color: var(--global-text-color-light); margin: 0;">Awards Won</p>
+        </div>
+        <div style="margin-bottom: 1rem;">
+          <h4 style="color: var(--global-theme-color);">3</h4>
+          <p style="color: var(--global-text-color-light); margin: 0;">Countries Performed</p>
+        </div>
+        <div>
+          <h4 style="color: var(--global-theme-color);">International</h4>
+          <p style="color: var(--global-text-color-light); margin: 0;">Recognition Level</p>
+        </div>
+      </div>
+    </div>
   </div>
-  -->
+</div>
+
+<div class="container-fluid">
 
   <!-- Navigation Tabs -->
   <ul class="nav nav-tabs justify-content-center mb-4" id="awardsTab" role="tablist">
@@ -57,40 +75,44 @@ nav_order: 3
       </div>
 
       <!-- International Achievements -->
-      <h3 class="mt-5 mb-4"><i class="fas fa-globe"></i> International JOC Honors</h3>
+      <h3 class="mt-5 mb-4">🌍 International JOC Honors</h3>
 
       <div class="row">
         <!-- 2021 JOC 50th Anniversary -->
         <div class="col-lg-6 mb-4">
-          <div class="card h-100">
-            <div class="card-header bg-primary text-white">
-              <h5><i class="fas fa-star"></i> 2021 JOC 50th Anniversary Concert</h5>
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none;">
+              <h5 class="mb-0">🎆 2021 JOC 50th Anniversary Concert</h5>
             </div>
             <div class="card-body">
               <div class="text-center mb-3">
-                <img src="/assets/img/awards/JOC50.png" alt="2021 JOC 50th Anniversary Certificate" class="img-fluid rounded" style="max-height: 200px;">
+                <img src="/assets/img/awards/JOC50.png" alt="2021 JOC 50th Anniversary Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
               </div>
               <p class="card-text">My work <em>The Ballad of Gaixia</em> was selected as <strong>one of only 12 pieces chosen globally</strong> and the <strong>only piece from China</strong> for this milestone celebration.</p>
-              <div class="badge bg-success mb-2">International Selection</div>
-              <div class="badge bg-info">China Representative</div>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge" style="background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%); color: white;">International Selection</span>
+                <span class="badge" style="background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%); color: white;">China Representative</span>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- 2016 IJOC -->
         <div class="col-lg-6 mb-4">
-          <div class="card h-100">
-            <div class="card-header bg-success text-white">
-              <h5><i class="fas fa-trophy"></i> 2016 International JOC (IJOC)</h5>
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-header" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; border: none;">
+              <h5 class="mb-0">🎌 2016 International JOC (IJOC)</h5>
             </div>
             <div class="card-body">
               <div class="text-center mb-3">
-                <img src="/assets/img/awards/2016 IJOC/2016IJOC-certification.png" alt="2016 IJOC Certificate" class="img-fluid rounded" style="max-height: 200px;">
+                <img src="/assets/img/awards/2016 IJOC/2016IJOC-certification.png" alt="2016 IJOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
               </div>
               <p class="card-text">My composition <em>Beautiful Huitengxile</em> stood out from <strong>over 30,000 original pieces worldwide</strong>, earning a performance spot at the 45th IJOC in Tokyo, Japan.</p>
-              <div class="badge bg-primary mb-2">Global Top Selection</div>
-              <div class="badge bg-warning">Tokyo Performance</div>
-              <a href="https://www.youtube.com/watch?v=BAqfoMv-iL0" target="_blank" class="btn btn-outline-primary btn-sm mt-2">
+              <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="badge" style="background: linear-gradient(45deg, #fa709a 0%, #fee140 100%); color: white;">Global Top Selection</span>
+                <span class="badge" style="background: linear-gradient(45deg, #a8edea 0%, #fed6e3 100%); color: #333;">Tokyo Performance</span>
+              </div>
+              <a href="https://www.youtube.com/watch?v=BAqfoMv-iL0" target="_blank" class="btn btn-outline-primary btn-sm">
                 <i class="fab fa-youtube"></i> Watch Performance
               </a>
             </div>
@@ -99,29 +121,43 @@ nav_order: 3
       </div>
 
       <!-- 2016 IJOC Performance Photos -->
-      <div class="card mb-4">
-        <div class="card-header">
-          <h5><i class="fas fa-camera"></i> 2016 IJOC Performance Moments</h5>
+      <div class="card mb-4 border-0 shadow-sm">
+        <div class="card-header" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: none;">
+          <h5 class="mb-0" style="color: var(--global-theme-color);">📷 2016 IJOC Performance Moments</h5>
         </div>
         <div class="card-body">
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <img src="/assets/img/awards/2016 IJOC/IJOC2016 stage.jpeg" alt="2016 IJOC Stage Performance" class="img-fluid rounded">
-              <p class="text-center mt-2"><small>Performance on Tokyo stage</small></p>
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+              <div class="position-relative">
+                <img src="/assets/img/awards/2016 IJOC/IJOC2016 stage.jpeg" alt="2016 IJOC Stage Performance" class="img-fluid rounded shadow-sm" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;">
+                <div class="text-center mt-2">
+                  <small class="text-muted">Performance on Tokyo stage</small>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6 mb-3">
-              <img src="/assets/img/awards/2016 IJOC/IJOC2016 with CB.jpeg" alt="2016 IJOC with CB" class="img-fluid rounded">
-              <p class="text-center mt-2"><small>With accompaniment</small></p>
+            <div class="col-md-6 col-lg-3">
+              <div class="position-relative">
+                <img src="/assets/img/awards/2016 IJOC/IJOC2016 with CB.jpeg" alt="2016 IJOC with CB" class="img-fluid rounded shadow-sm" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;">
+                <div class="text-center mt-2">
+                  <small class="text-muted">With accompaniment</small>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <img src="/assets/img/awards/2016 IJOC/2016IJOc with mom.JPG" alt="2016 IJOC with mom" class="img-fluid rounded">
-              <p class="text-center mt-2"><small>Celebration with family</small></p>
+            <div class="col-md-6 col-lg-3">
+              <div class="position-relative">
+                <img src="/assets/img/awards/2016 IJOC/2016IJOc with mom.JPG" alt="2016 IJOC with mom" class="img-fluid rounded shadow-sm" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;">
+                <div class="text-center mt-2">
+                  <small class="text-muted">Celebration with family</small>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6 mb-3">
-              <img src="/assets/img/awards/2016 IJOC/2016IJOC with dad.JPG" alt="2016 IJOC with dad" class="img-fluid rounded">
-              <p class="text-center mt-2"><small>Proud moment with family</small></p>
+            <div class="col-md-6 col-lg-3">
+              <div class="position-relative">
+                <img src="/assets/img/awards/2016 IJOC/2016IJOC with dad.JPG" alt="2016 IJOC with dad" class="img-fluid rounded shadow-sm" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;">
+                <div class="text-center mt-2">
+                  <small class="text-muted">Proud moment with family</small>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -134,60 +170,61 @@ nav_order: 3
       </div>
 
       <!-- National JOC Achievements -->
-      <h3 class="mt-5 mb-4"><i class="fas fa-flag"></i> National JOC Achievements (2015-2022)</h3>
-      <div class="card mb-4">
+      <h3 class="mt-5 mb-4">🏆 National JOC Achievements (2015-2022)</h3>
+      <div class="card mb-4 border-0 shadow-sm">
+        <div class="card-header" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border: none;">
+          <h5 class="mb-0" style="color: var(--global-theme-color);">Consecutive National Selections</h5>
+          <p class="mb-0 mt-2" style="color: var(--global-text-color-light);">From 2015-2022, all of my original works at Yamaha music school were selected for the National JOC.</p>
+        </div>
         <div class="card-body">
-          <h5>Consecutive National Selections</h5>
-          <p>From 2015-2022, all of my original works at Yamaha music school were selected for the National JOC.</p>
-
           <!-- National JOC Certificates Grid -->
-          <div class="row mt-4">
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+          <div class="row g-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2015 JOC Certi.png" alt="2015 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2015 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2015 JOC Certi.png" alt="2015 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2015 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2016 JOC Certi.png" alt="2016 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2016 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2016 JOC Certi.png" alt="2016 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2016 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2017 JOC Certi.png" alt="2017 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2017 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2017 JOC Certi.png" alt="2017 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2017 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2018 JOC Certi.png" alt="2018 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2018 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2018 JOC Certi.png" alt="2018 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2018 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2019 JOC Certi.png" alt="2019 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2019 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2019 JOC Certi.png" alt="2019 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2019 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2020 JOC Certi.png" alt="2020 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2020 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2020 JOC Certi.png" alt="2020 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2020 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2021 JOC Certi.png" alt="2021 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2021 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2021 JOC Certi.png" alt="2021 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2021 JOC</strong></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+            <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="text-center">
-                <img src="/assets/img/awards/National JOC/2022 JOC Certi.png" alt="2022 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px;">
-                <p class="mt-2"><strong>2022 JOC</strong></p>
+                <img src="/assets/img/awards/National JOC/2022 JOC Certi.png" alt="2022 JOC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 200px; cursor: pointer;">
+                <p class="mt-2 mb-0"><strong>2022 JOC</strong></p>
               </div>
             </div>
           </div>
@@ -195,29 +232,37 @@ nav_order: 3
       </div>
 
       <!-- YIHC Achievements -->
-      <h3 class="mt-5 mb-4"><i class="fas fa-spotlight"></i> Yamaha International Highlight Concert</h3>
+      <h3 class="mt-5 mb-4">🎭 Yamaha International Highlight Concert</h3>
 
       <div class="row">
-        <div class="col-md-6 mb-3">
-          <div class="card">
-            <div class="card-header bg-info text-white">
-              <h6>2020 YIHC</h6>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-header" style="background: linear-gradient(135deg, #17a2b8 0%, #138496 100%); color: white; border: none;">
+              <h5 class="mb-0">🍂 2020 YIHC</h5>
             </div>
-            <div class="card-body">
-              <p><em>Mountain Trip in the Late Autumn</em> - Selected as <strong>one of only 20 works worldwide</strong></p>
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">Mountain Trip in the Late Autumn</h6>
+              <p class="card-text flex-grow-1">Selected as <strong>one of only 20 works worldwide</strong> for this prestigious international showcase.</p>
+              <div class="mt-auto">
+                <span class="badge" style="background: linear-gradient(45deg, #17a2b8 0%, #20c997 100%); color: white;">Global Selection</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-3">
-          <div class="card">
-            <div class="card-header bg-warning text-dark">
-              <h6>2022 YIHC Online Premium</h6>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-header" style="background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%); color: #212529; border: none;">
+              <h5 class="mb-0">✨ 2022 YIHC Online Premium</h5>
             </div>
-            <div class="card-body">
-              <div class="text-center mb-2">
-                <img src="/assets/img/awards/2022 YIHC/2022 yihc certi.png" alt="2022 YIHC Certificate" class="img-fluid rounded" style="max-height: 150px;">
+            <div class="card-body d-flex flex-column">
+              <div class="text-center mb-3">
+                <img src="/assets/img/awards/2022 YIHC/2022 yihc certi.png" alt="2022 YIHC Certificate" class="img-fluid rounded shadow-sm" style="max-height: 150px; cursor: pointer;">
               </div>
-              <p><em>Battlefield Muster</em> - Selected with <strong>only 15 works globally</strong></p>
+              <h6 class="card-title">Battlefield Muster</h6>
+              <p class="card-text flex-grow-1">Selected with <strong>only 15 works globally</strong> for the premium online concert series.</p>
+              <div class="mt-auto">
+                <span class="badge" style="background: linear-gradient(45deg, #ffc107 0%, #fd7e14 100%); color: white;">Premium Selection</span>
+              </div>
             </div>
           </div>
         </div>
@@ -245,30 +290,92 @@ nav_order: 3
         <div class="card-body">
           <div class="row">
             <div class="col-md-8">
-              <h5>Achievement Timeline</h5>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  July 2023: China National Final
-                  <span class="badge bg-success rounded-pill">1st Place</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  October 2023: Asia-Pacific Regional
-                  <span class="badge bg-info rounded-pill">2nd Place</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  Global Final Qualification
-                  <span class="badge bg-warning text-dark rounded-pill">Qualified</span>
-                </li>
-              </ul>
-              <div class="mt-3">
-                <small class="text-muted">
-                  <i class="fas fa-info-circle"></i> At age 15, I was the youngest ever from China to advance to the Global Final in the Adult Division under the new competition system.
-                </small>
+              <div class="competition-timeline-header mb-4">
+                <h5 class="mb-2" style="color: var(--global-text-color); font-weight: 700;">2023 Competition Journey</h5>
+                <p class="mb-0" style="color: var(--global-text-color-light); font-size: 0.95rem;">A milestone achievement - advancing through multiple competition levels to reach the world stage</p>
+              </div>
+
+              <div class="timeline-progress" style="position: relative;">
+                <!-- Progress Line -->
+                <div style="position: absolute; left: 20px; top: 30px; bottom: 30px; width: 3px; background: linear-gradient(to bottom, #28a745, #007bff, #ffc107); border-radius: 2px; opacity: 0.3;"></div>
+
+                <!-- Timeline Items -->
+                <div class="timeline-step d-flex align-items-start mb-4" style="position: relative;">
+                  <div class="step-icon" style="background: #28a745; width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; z-index: 1; box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);">
+                    <span style="color: white; font-weight: bold; font-size: 0.9rem;">1st</span>
+                  </div>
+                  <div class="step-content flex-grow-1" style="padding: 0.8rem 1.2rem; background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); border-radius: 12px; border-left: 4px solid #28a745; margin-top: 4px;">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                      <h6 style="color: #155724; font-weight: 700; margin: 0; font-size: 1rem;">China National Final</h6>
+                      <span class="badge bg-success" style="font-size: 0.8rem;">Champion</span>
+                    </div>
+                    <p style="color: #155724; margin: 0; font-size: 0.85rem; opacity: 0.8;">July 2023 • Beijing, China</p>
+                  </div>
+                </div>
+
+                <div class="timeline-step d-flex align-items-start mb-4" style="position: relative;">
+                  <div class="step-icon" style="background: #007bff; width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; z-index: 1; box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);">
+                    <span style="color: white; font-weight: bold; font-size: 0.9rem;">2nd</span>
+                  </div>
+                  <div class="step-content flex-grow-1" style="padding: 0.8rem 1.2rem; background: linear-gradient(135deg, #cce7ff 0%, #b3d9ff 100%); border-radius: 12px; border-left: 4px solid #007bff; margin-top: 4px;">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                      <h6 style="color: #004085; font-weight: 700; margin: 0; font-size: 1rem;">Asia-Pacific Regional</h6>
+                      <span class="badge bg-info" style="font-size: 0.8rem;">Runner-up</span>
+                    </div>
+                    <p style="color: #004085; margin: 0; font-size: 0.85rem; opacity: 0.8;">October 2023 • Regional Championship</p>
+                  </div>
+                </div>
+
+                <div class="timeline-step d-flex align-items-start mb-3" style="position: relative;">
+                  <div class="step-icon" style="background: #ffc107; width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; z-index: 1; box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);">
+                    <span style="color: #212529; font-weight: bold; font-size: 1.1rem;">✓</span>
+                  </div>
+                  <div class="step-content flex-grow-1" style="padding: 0.8rem 1.2rem; background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%); border-radius: 12px; border-left: 4px solid #ffc107; margin-top: 4px;">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                      <h6 style="color: #856404; font-weight: 700; margin: 0; font-size: 1rem;">Global Final Qualified</h6>
+                      <span class="badge bg-warning text-dark" style="font-size: 0.8rem;">Qualified</span>
+                    </div>
+                    <p style="color: #856404; margin: 0; font-size: 0.85rem; opacity: 0.8;">World Championship Level • International Stage</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="achievement-highlight mt-4" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.06) 0%, rgba(139, 92, 246, 0.06) 100%); padding: 1rem; border-radius: 10px; border-left: 4px solid var(--global-theme-color);">
+                <div class="d-flex align-items-center">
+                  <i class="fas fa-trophy me-2" style="color: var(--global-theme-color); font-size: 1.1rem;"></i>
+                  <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.95rem;">Historic Achievement</span>
+                </div>
+                <p class="mb-0 mt-1" style="color: var(--global-text-color-light); font-size: 0.9rem; line-height: 1.4;">
+                  At age 15, became the youngest competitor ever from China to advance to the Global Final in the Adult Division under the new competition system.
+                </p>
               </div>
             </div>
+
             <div class="col-md-4">
-              <div class="text-center mb-3">
-                <img src="/assets/img/awards/2023 YEF/2023 YEF certi1.png" alt="2023 YEF Certificate" class="img-fluid rounded" style="max-height: 200px;">
+              <div class="certificate-showcase">
+                <div class="text-center mb-4">
+                  <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%); padding: 1.5rem; border-radius: 16px; border: 1px solid rgba(102, 126, 234, 0.15);">
+                    <img src="/assets/img/awards/2023 YEF/2023 YEF certi1.png" alt="2023 YEF Certificate" class="img-fluid rounded" style="max-height: 200px; cursor: pointer; box-shadow: 0 6px 20px rgba(0,0,0,0.15); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    <h6 class="mt-3 mb-2" style="color: var(--global-theme-color); font-weight: 600;">Official Certificate</h6>
+                    <p class="mb-0" style="color: var(--global-text-color-light); font-size: 0.85rem;">2023 Yamaha Electone Festival Global Final Qualification</p>
+                  </div>
+                </div>
+
+                <div class="competition-stats" style="background: rgba(255, 255, 255, 0.8); padding: 1.2rem; border-radius: 12px; border: 1px solid rgba(102, 126, 234, 0.1);">
+                  <h6 style="color: var(--global-theme-color); margin-bottom: 1rem; font-weight: 600; text-align: center;">Competition Stats</h6>
+                  <div class="stat-row d-flex justify-content-between align-items-center mb-2">
+                    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Competition Level</span>
+                    <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.85rem;">Global Final</span>
+                  </div>
+                  <div class="stat-row d-flex justify-content-between align-items-center mb-2">
+                    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Age Category</span>
+                    <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.85rem;">Adult Division</span>
+                  </div>
+                  <div class="stat-row d-flex justify-content-between align-items-center">
+                    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Achievement</span>
+                    <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.85rem;">Youngest Ever</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -443,38 +550,93 @@ nav_order: 3
     </div>
   </div>
 
-  <!-- Timeline Section -->
+  <!-- Achievement Timeline Section -->
   <div class="mt-5">
-    <h3 class="text-center mb-4"><i class="fas fa-timeline"></i> Achievement Timeline</h3>
-    <div class="row">
-      <div class="col-12">
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-marker bg-success"></div>
-            <div class="timeline-content">
-              <h6 class="timeline-title">2015-2022</h6>
-              <p>Consecutive National JOC Selections</p>
+    <div class="timeline-header text-center mb-5">
+      <h3 style="color: var(--global-theme-color); font-weight: 700; margin-bottom: 1rem;">
+        <i class="fas fa-route me-2"></i>Achievement Journey
+      </h3>
+      <p style="color: var(--global-text-color-light); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+        A visual journey through key milestones and breakthrough moments in my musical career
+      </p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="modern-timeline" style="position: relative;">
+          <!-- Central timeline line -->
+          <div class="timeline-line" style="position: absolute; left: 50%; top: 60px; bottom: 60px; width: 4px; background: linear-gradient(to bottom, #28a745, #17a2b8, #ffc107, #dc3545); border-radius: 2px; transform: translateX(-50%); z-index: 1;"></div>
+
+          <!-- Timeline Items -->
+          <div class="timeline-milestone mb-5" style="position: relative;">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-end">
+                <div class="milestone-card" style="background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%); padding: 1.5rem; border-radius: 15px; border-left: 5px solid #28a745; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.2);">
+                  <h5 style="color: #155724; font-weight: 700; margin-bottom: 0.5rem;">2015-2022</h5>
+                  <h6 style="color: #155724; margin-bottom: 0.8rem;">Consecutive National Success</h6>
+                  <p style="color: #155724; margin: 0; font-size: 0.9rem; opacity: 0.8;">8 consecutive years of National JOC selections - establishing consistent excellence</p>
+                </div>
+              </div>
+              <div class="col-md-2 text-center">
+                <div class="milestone-icon" style="background: #28a745; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; z-index: 10; position: relative; box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);">
+                  <i class="fas fa-trophy" style="color: white; font-size: 1.2rem;"></i>
+                </div>
+              </div>
+              <div class="col-md-5"></div>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-marker bg-primary"></div>
-            <div class="timeline-content">
-              <h6 class="timeline-title">2016</h6>
-              <p>International JOC Performance in Tokyo</p>
+
+          <div class="timeline-milestone mb-5" style="position: relative;">
+            <div class="row align-items-center">
+              <div class="col-md-5"></div>
+              <div class="col-md-2 text-center">
+                <div class="milestone-icon" style="background: #17a2b8; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; z-index: 10; position: relative; box-shadow: 0 6px 20px rgba(23, 162, 184, 0.4);">
+                  <i class="fas fa-globe-asia" style="color: white; font-size: 1.2rem;"></i>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="milestone-card" style="background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%); padding: 1.5rem; border-radius: 15px; border-right: 5px solid #17a2b8; box-shadow: 0 4px 15px rgba(23, 162, 184, 0.2);">
+                  <h5 style="color: #0c5460; font-weight: 700; margin-bottom: 0.5rem;">2016</h5>
+                  <h6 style="color: #0c5460; margin-bottom: 0.8rem;">International Breakthrough</h6>
+                  <p style="color: #0c5460; margin: 0; font-size: 0.9rem; opacity: 0.8;">First international performance at Tokyo IJOC - representing China on the global stage</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-marker bg-info"></div>
-            <div class="timeline-content">
-              <h6 class="timeline-title">2020-2022</h6>
-              <p>YIHC Global Selections</p>
+
+          <div class="timeline-milestone mb-5" style="position: relative;">
+            <div class="row align-items-center">
+              <div class="col-md-5 text-end">
+                <div class="milestone-card" style="background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%); padding: 1.5rem; border-radius: 15px; border-left: 5px solid #ffc107; box-shadow: 0 4px 15px rgba(255, 193, 7, 0.2);">
+                  <h5 style="color: #856404; font-weight: 700; margin-bottom: 0.5rem;">2020-2022</h5>
+                  <h6 style="color: #856404; margin-bottom: 0.8rem;">Global Recognition</h6>
+                  <p style="color: #856404; margin: 0; font-size: 0.9rem; opacity: 0.8;">Selected for YIHC international showcases - elite global composer recognition</p>
+                </div>
+              </div>
+              <div class="col-md-2 text-center">
+                <div class="milestone-icon" style="background: #ffc107; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; z-index: 10; position: relative; box-shadow: 0 6px 20px rgba(255, 193, 7, 0.4);">
+                  <i class="fas fa-star" style="color: #212529; font-size: 1.2rem;"></i>
+                </div>
+              </div>
+              <div class="col-md-5"></div>
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-marker bg-warning"></div>
-            <div class="timeline-content">
-              <h6 class="timeline-title">2023</h6>
-              <p>YEF Global Final Qualification</p>
+
+          <div class="timeline-milestone" style="position: relative;">
+            <div class="row align-items-center">
+              <div class="col-md-5"></div>
+              <div class="col-md-2 text-center">
+                <div class="milestone-icon" style="background: #dc3545; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; z-index: 10; position: relative; box-shadow: 0 6px 20px rgba(220, 53, 69, 0.4);">
+                  <i class="fas fa-crown" style="color: white; font-size: 1.2rem;"></i>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="milestone-card" style="background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%); padding: 1.5rem; border-radius: 15px; border-right: 5px solid #dc3545; box-shadow: 0 4px 15px rgba(220, 53, 69, 0.2);">
+                  <h5 style="color: #721c24; font-weight: 700; margin-bottom: 0.5rem;">2023</h5>
+                  <h6 style="color: #721c24; margin-bottom: 0.8rem;">Historic Achievement</h6>
+                  <p style="color: #721c24; margin: 0; font-size: 0.9rem; opacity: 0.8;">YEF Global Final qualification - youngest ever from China in Adult Division</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -484,45 +646,40 @@ nav_order: 3
 </div>
 
 <style>
-.timeline {
-  position: relative;
-  padding-left: 30px;
+/* Modern Timeline Responsive Design */
+@media (max-width: 768px) {
+  .modern-timeline .timeline-line {
+    left: 30px !important;
+    transform: none !important;
+  }
+
+  .modern-timeline .milestone-icon {
+    position: absolute;
+    left: 5px;
+  }
+
+  .modern-timeline .row {
+    margin-left: 60px;
+  }
+
+  .modern-timeline .col-md-5:first-child {
+    display: none;
+  }
+
+  .modern-timeline .col-md-2 {
+    display: block;
+    width: 60px;
+    position: absolute;
+    left: 0;
+  }
+
+  .modern-timeline .col-md-5:last-child {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 15px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #dee2e6;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.timeline-marker {
-  position: absolute;
-  left: -23px;
-  top: 5px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-}
-
-.timeline-content {
-  padding-left: 20px;
-}
-
-.timeline-title {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
+/* Card hover effects */
 .card {
   transition: transform 0.2s;
 }
@@ -531,6 +688,7 @@ nav_order: 3
   transform: translateY(-2px);
 }
 
+/* Tab styling */
 .nav-tabs .nav-link {
   border: none;
   color: #6c757d;
@@ -544,6 +702,16 @@ nav_order: 3
 
 .shadow-sm {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+/* Milestone card animations */
+.milestone-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.milestone-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
 }
 </style>
 
