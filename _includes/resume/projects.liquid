@@ -9,7 +9,7 @@
             {% assign date = startDate | append: ' - ' %}
             {% assign date = date | append: endDate %}
           {% else %}
-            {% assign date = '' %}
+            {% assign date = content.date | default: '' %}
           {% endif %}
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
         </div>
