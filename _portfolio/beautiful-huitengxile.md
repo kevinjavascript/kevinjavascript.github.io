@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Beautiful Huitengxile (美丽的辉腾锡勒)
+title: Beautiful Huitengxile
 description: "A melodic journey inspired by the vast grasslands and cultural richness of my hometown. This piece captures the essence of Inner Mongolia's natural beauty."
 importance: 1
 category: composition

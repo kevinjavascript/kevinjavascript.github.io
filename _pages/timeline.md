@@ -11,9 +11,9 @@ nav_order: 4
 <div class="timeline-hero" style="background: var(--global-card-bg-color); padding: 3rem 2rem; border-radius: 15px; margin-bottom: 3rem; border-left: 5px solid var(--global-theme-color); box-shadow: 0 5px 15px var(--global-divider-color); border: 1px solid var(--global-divider-color);">
   <div class="row align-items-center">
     <div class="col-md-8">
-      <h1 style="color: var(--global-text-color); margin-bottom: 1rem;">🎨 Creative Journey Through Time</h1>
+      <h1 style="color: var(--global-text-color); margin-bottom: 1rem;">🎨 Original Works</h1>
       <p style="font-size: 1.2rem; color: var(--global-text-color-light); margin-bottom: 0;">
-        Witness the evolution of my musical voice - from childhood inspirations to sophisticated arrangements, each composition reflects a chapter in my artistic growth and technical mastery
+        The Electone pieces that I composed when I was studying in Yamaha Music School
       </p>
     </div>
     <div class="col-md-4 text-center">
@@ -54,7 +54,7 @@ nav_order: 4
           <div class="embed-responsive embed-responsive-16by9">
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/{{ event.youtube_id }}?rel=0&showinfo=0"
+              src="https://www.youtube.com/embed/{{ event.youtube_id }}?start={{ event.youtube_start }}"
               allowfullscreen>
             </iframe>
           </div>

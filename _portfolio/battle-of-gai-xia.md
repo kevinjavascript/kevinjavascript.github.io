@@ -1,8 +1,8 @@
 ---
 layout: distill
-title: The Battle of Gai Xia (垓下之战)
+title: The Battle of Gai Xia
 description: "An epic musical narrative depicting the legendary final battle of Xiang Yu. This composition combines traditional Chinese musical elements with modern orchestration techniques."
-img: /assets/img/posts/helloworld/helloworld.png
+img: 
 importance: 2
 category: composition
 date: 2021-11-20
