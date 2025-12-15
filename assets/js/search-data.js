@@ -55,59 +55,16 @@ ninja.data = [{
             window.location.href = "/insights/2025/future-of-music-technology/";
           
         },
-      },{id: "post-hello-world",
-        
-          title: "Hello, world!",
-        
-        description: "A deep dive into the circuitry and design philosophy that gives the legendary Minimoog its timeless sound.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/insights/2025/helloworld/";
-          
-        },
-      },{id: "post-introduction-of-yamaha-electone-festivel-yef",
-        
-          title: "Introduction of Yamaha Electone Festivel (YEF)",
-        
-        description: "A brief introduction to the Yamaha Electone Festival (YEF).",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/insights/2024/intro-to-yef/";
-          
-        },
-      },{id: "post-yef-experience",
-        
-          title: "YEF Experience",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/insights/2023/yef-experience/";
-          
-        },
-      },{id: "portfolio-beautiful-huitengxile-美丽的辉腾锡勒",
-          title: 'Beautiful Huitengxile (美丽的辉腾锡勒)',
+      },{id: "portfolio-beautiful-huitengxile",
+          title: 'Beautiful Huitengxile',
           description: "A melodic journey inspired by the vast grasslands and cultural richness of my hometown. This piece captures the essence of Inner Mongolia&#39;s natural beauty.",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/beautiful-huitengxile/";
-            },},{id: "portfolio-the-battle-of-gai-xia-垓下之战",
-          title: 'The Battle of Gai Xia (垓下之战)',
+            },},{id: "portfolio-the-battle-of-gai-xia",
+          title: 'The Battle of Gai Xia',
           description: "An epic musical narrative depicting the legendary final battle of Xiang Yu. This composition combines traditional Chinese musical elements with modern orchestration techniques.",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/battle-of-gai-xia/";
-            },},{id: "portfolio-persue",
-          title: 'Persue',
-          description: "Listen to Persue NOW !",
-          section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/persue/";
-            },},{id: "portfolio-the-battle-of-gai-xia-yef",
-          title: 'The Battle of Gai Xia (YEF)',
-          description: "Listen to The Battle of GaiXia (YEF) NOW !",
-          section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/the-battle-of-gai-xia-yef/";
             },},{
         id: 'social-email',
         title: 'email',
