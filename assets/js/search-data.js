@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/";
           },
-        },{id: "nav-musical-journey-timeline",
-          title: "Musical Journey Timeline",
+        },{id: "nav-timeline-for-early-works",
+          title: "Timeline for Early Works",
           description: "A chronological journey through my musical evolution and achievements.",
           section: "Navigation",
           handler: () => {
