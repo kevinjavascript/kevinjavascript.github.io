@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Musical Journey Timeline
+title: Timeline for Early Works
 permalink: /timeline/
 description: A chronological journey through my musical evolution and achievements.
 nav: true
@@ -13,7 +13,7 @@ nav_order: 4
     <div class="col-md-8">
       <h1 style="color: var(--global-text-color); margin-bottom: 1rem;">🎨 Original Works</h1>
       <p style="font-size: 1.2rem; color: var(--global-text-color-light); margin-bottom: 0;">
-        The Electone pieces that I composed when I was studying in Yamaha Music School
+        The Electone music pieces that I composed during Yamaha Music School Learning
       </p>
     </div>
     <div class="col-md-4 text-center">
@@ -26,10 +26,6 @@ nav_order: 4
         <div style="margin-bottom: 1rem;">
           <h4 style="color: var(--global-theme-color);">10+</h4>
           <p style="color: var(--global-text-color-light); margin: 0;">Years Creating</p>
-        </div>
-        <div>
-          <h4 style="color: var(--global-theme-color);">Diverse Styles</h4>
-          <p style="color: var(--global-text-color-light); margin: 0;">Ballads to Battle Themes</p>
         </div>
       </div>
     </div>

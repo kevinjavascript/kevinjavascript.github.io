@@ -10,19 +10,7 @@ youtube_id: 9WbtWsWxoFg
 tags: [composition]
 ---
 
-## About This Composition
-
-This piece portrays the final battle of the Chu-Han Contention. Besieged by Liu Bang's coalition and demoralized by songs from his homeland, Xiang Yu bid a heartbreaking farewell to his beloved Lady Yu before breaking the encirclement, only to end his life at the Wu River.
-
-
-### Musical Elements
-
-- **Genre**: Symphonic Poem with Chinese Traditional Instruments
-- **Duration**: 5 minutes
-- **Instruments**: Yamaha Electone ELS-02C
-
-### Performance Video
-
+## Performance Video
 {% if page.youtube_id %}
 <div class="video-container" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 2rem 0;">
   <iframe
@@ -33,3 +21,17 @@ This piece portrays the final battle of the Chu-Han Contention. Besieged by Liu 
   </iframe>
 </div>
 {% endif %}
+
+## About This Composition
+This piece portrays the final battle of the Chu-Han Contention. Besieged by Liu Bang's coalition and demoralized by songs from his homeland, Xiang Yu bid a heartbreaking farewell to his beloved Lady Yu before breaking the encirclement, only to end his life at the Wu River.
+
+### Musical Elements
+
+- **Genre**: Symphonic Poem with Chinese Traditional Instruments
+- **Duration**: 5 minutes
+- **Instruments**: Yamaha Electone ELS-02C
+
+
+
+## Full Score
+https://drive.google.com/file/d/1idhddFRWUbJ02tCH7R1piaOn7WY6slnH/view
