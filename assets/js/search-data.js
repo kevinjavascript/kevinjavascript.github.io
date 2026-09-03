@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-portfolio",
           title: "Portfolio",
-          description: "A showcase of my musical compositions, performances, and creative projects that demonstrate my journey in music technology.",
+          description: "Several projects across multiple disciplines",
           section: "Navigation",
           handler: () => {
             window.location.href = "/portfolio/";
@@ -55,16 +55,21 @@ ninja.data = [{
             window.location.href = "/insights/2025/future-of-music-technology/";
           
         },
-      },{id: "portfolio-beautiful-huitengxile",
-          title: 'Beautiful Huitengxile',
-          description: "A melodic journey inspired by the vast grasslands and cultural richness of my hometown. This piece captures the essence of Inner Mongolia&#39;s natural beauty.",
-          section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/beautiful-huitengxile/";
-            },},{id: "portfolio-the-battle-of-gai-xia",
+      },{id: "portfolio-the-battle-of-gai-xia",
           title: 'The Battle of Gai Xia',
-          description: "An epic musical narrative depicting the legendary final battle of Xiang Yu. This composition combines traditional Chinese musical elements with modern orchestration techniques.",
+          description: "An epic musical narrative depicting the legendary final battle of Xiang Yu.",
           section: "Portfolio",handler: () => {
-              window.location.href = "/portfolio/battle-of-gai-xia/";
+              window.location.href = "/portfolio/bog/";
+            },},{id: "portfolio-diy-environment-quality-monitor",
+          title: 'DIY Environment Quality Monitor',
+          description: "An ECE project using perfboard as final product",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/eqm/";
+            },},{id: "portfolio-mountain-resonance",
+          title: 'Mountain Resonance',
+          description: "An Exploration to Human-Computer-Interaction Music",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/moutainresonance/";
             },},{
         id: 'social-email',
         title: 'email',
