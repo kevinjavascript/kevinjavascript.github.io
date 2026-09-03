@@ -20,11 +20,11 @@ nav_order: 4
       <div style="background: rgba(102, 126, 234, 0.1); padding: 2rem; border-radius: 15px;">
         <h3 style="color: var(--global-theme-color); margin-bottom: 1rem;">🎨 Creative Milestones</h3>
         <div style="margin-bottom: 1rem;">
-          <h4 style="color: var(--global-theme-color);">8</h4>
+          <h4 style="color: var(--global-theme-color);">10+</h4>
           <p style="color: var(--global-text-color-light); margin: 0;">Original Works</p>
         </div>
         <div style="margin-bottom: 1rem;">
-          <h4 style="color: var(--global-theme-color);">7</h4>
+          <h4 style="color: var(--global-theme-color);">10+</h4>
           <p style="color: var(--global-text-color-light); margin: 0;">Years Creating</p>
         </div>
         <div>
