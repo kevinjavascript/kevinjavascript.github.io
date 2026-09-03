@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
-description: A showcase of my musical compositions, performances, and creative projects that demonstrate my journey in music technology.
+description: Several projects across multiple disciplines
 nav: true
 nav_order: 3
 horizontal: false
@@ -19,21 +19,21 @@ horizontal: false
           </div>
           <div>
             <h1 style="color: var(--global-text-color); margin: 0; font-size: 2.2rem; font-weight: 700;">Creative Portfolio</h1>
-            <p style="color: var(--global-theme-color); margin: 0; font-size: 1rem; font-weight: 500;">Musical Compositions & Performances</p>
+            <p style="color: var(--global-theme-color); margin: 0; font-size: 1rem; font-weight: 500;">Music Compositions & Engineering</p>
           </div>
         </div>
         <p style="font-size: 1.15rem; color: var(--global-text-color-light); margin-bottom: 1rem; line-height: 1.6;">
-          Discover my musical journey through original compositions, live performances, and creative projects that showcase technical mastery and artistic expression across diverse genres.
+          Discover my interdisciplinary proejcts with my expertise in music and interests in engineering, CS, and technology
         </p>
         <div class="portfolio-highlights d-flex flex-wrap gap-3">
           <div class="highlight-item" style="background: rgba(102, 126, 234, 0.08); padding: 0.6rem 1rem; border-radius: 25px; border: 1px solid rgba(102, 126, 234, 0.15);">
             <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.9rem;">🎵 Original Compositions</span>
           </div>
           <div class="highlight-item" style="background: rgba(102, 126, 234, 0.08); padding: 0.6rem 1rem; border-radius: 25px; border: 1px solid rgba(102, 126, 234, 0.15);">
-            <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.9rem;">🎤 Live Performances</span>
+            <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.9rem;">🔗 Music Technology</span>
           </div>
           <div class="highlight-item" style="background: rgba(102, 126, 234, 0.08); padding: 0.6rem 1rem; border-radius: 25px; border: 1px solid rgba(102, 126, 234, 0.15);">
-            <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.9rem;">🎹 Multi-Genre</span>
+            <span style="color: var(--global-theme-color); font-weight: 600; font-size: 0.9rem;">🔬 Engineering & CS</span>
           </div>
         </div>
       </div>
@@ -45,24 +45,24 @@ horizontal: false
           <div class="focus-item mb-2" style="padding: 0.6rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
             <div class="d-flex align-items-center mb-1">
               <i class="fas fa-music" style="color: var(--global-theme-color); margin-right: 0.5rem;"></i>
-              <h6 style="color: var(--global-theme-color); margin: 0; font-weight: 600;">Video Showcases</h6>
+              <h6 style="color: var(--global-theme-color); margin: 0; font-weight: 600;">Video Presentation</h6>
             </div>
-            <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.85rem;">Watch performances and hear compositions</p>
+            <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.85rem;">Watch performances of compositions; enjoy the work through of each project</p>
           </div>
           <div class="focus-item mb-2" style="padding: 0.6rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
             <div class="d-flex align-items-center mb-1">
               <i class="fas fa-palette" style="color: var(--global-theme-color); margin-right: 0.5rem;"></i>
               <h6 style="color: var(--global-theme-color); margin: 0; font-weight: 600;">Creative Process</h6>
             </div>
-            <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.85rem;">Behind-the-scenes composition insights</p>
+            <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.85rem;">Behind-the-scenes insights</p>
           </div>
-          <div class="focus-item" style="padding: 0.6rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <!-- <div class="focus-item" style="padding: 0.6rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
             <div class="d-flex align-items-center mb-1">
               <i class="fas fa-code" style="color: var(--global-theme-color); margin-right: 0.5rem;"></i>
               <h6 style="color: var(--global-theme-color); margin: 0; font-weight: 600;">Tech Integration</h6>
             </div>
             <p style="color: var(--global-text-color-light); margin: 0; font-size: 0.85rem;">Music technology implementations</p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
