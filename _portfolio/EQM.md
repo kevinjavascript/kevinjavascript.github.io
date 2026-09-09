@@ -2,7 +2,7 @@
 layout: distill
 title: DIY Environment Quality Monitor
 description: "An ECE project using perfboard as final product"
-img: 
+img: assets/img/portfolio/eqm/EQM-Cover.jpg
 importance: 2
 category: ECE
 date: 2026-9-3

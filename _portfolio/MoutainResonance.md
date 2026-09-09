@@ -2,7 +2,7 @@
 layout: distill
 title: Mountain Resonance
 description: "An Exploration to Human-Computer-Interaction Music"
-img: 
+img: assets/img/portfolio/mountain/Mountain.jpeg
 importance: 1
 category: Music Technology
 date: 2026-9-3

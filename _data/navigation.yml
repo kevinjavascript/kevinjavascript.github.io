@@ -1,7 +1,7 @@
 main:
   - title: "Spotlights"
     url: /
-  - title: "Timeline"
+  - title: "Early Works"
     url: /timeline/
   - title: "Portfolio"
     url: /portfolio/
@@ -9,5 +9,5 @@ main:
     url: /awards/
   # - title: "Insights"
   #   url: /insights/
-  - title: "Resume"
-    url: /resume/
+  # - title: "Resume"
+  #   url: /resume/

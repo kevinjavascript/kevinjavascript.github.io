@@ -2,7 +2,7 @@
 layout: distill
 title: The Battle of Gai Xia
 description: "An epic musical narrative depicting the legendary final battle of Xiang Yu."
-img: 
+img: assets/img/portfolio/bog/bog-test.png
 importance: 3
 category: composition
 date: 2026-9-3
@@ -33,5 +33,5 @@ This piece portrays the final battle of the Chu-Han Contention. Besieged by Liu 
 
 
 
-## Full Score
-https://drive.google.com/file/d/1idhddFRWUbJ02tCH7R1piaOn7WY6slnH/view
+<!-- ## Full Score
+https://drive.google.com/file/d/1idhddFRWUbJ02tCH7R1piaOn7WY6slnH/view -->
